@@ -1,0 +1,30 @@
+{
+  "name": "samaaru",
+  "version": "1.0.0",
+  "description": "This is a companny project. the how arssssa  cool sssnow it is working",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.package.json"
+    ],
+    "delay": "3500"
+  },
+  "author": "Satyam",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "express": "^4.17.1",
+    "file-changed": "^1.4.1",
+    "google-drive": "0.0.8",
+    "google-spreadsheet": "^3.0.8",
+    "googleapis": "^39.2.0",
+    "node-google-drive": "^1.1.2",
+    "node-xlsx": "^0.15.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "underscore": "^1.9.2"
+  }
+}
